@@ -1,0 +1,23 @@
+package something;
+
+import java.util.Scanner;
+
+public class Kaprur {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the n value");
+		int n=sc.nextInt();
+		int s=n*n;
+		int count;
+		while(s != 0)
+		{
+		// num = num/10.
+		s /= 10;
+		++count;
+		}
+		
+	}
+
+}

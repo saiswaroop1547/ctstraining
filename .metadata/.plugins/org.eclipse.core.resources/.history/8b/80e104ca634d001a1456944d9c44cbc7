@@ -1,0 +1,12 @@
+import java.util.HashMap;
+
+
+public class Jobdetails {
+public static void salaryincrement()
+{
+
+	HashMap<Integer,Integer> h2=new HashMap<Integer,Integer>();
+
+}
+
+}

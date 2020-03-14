@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="AddEmpServlet">
+<table>
+<tr><td>Employee Id</td><td><input type="text" name="empid"/></td></tr>
+<tr><td>Employee Name</td><td><input type="text" name="enmae"/></td></tr>
+<tr><td>Department</td><td><input type="text" name="dept"/></td></tr>
+<tr><td>Designation</td><td><input type="text" name="desg"/></td></tr>
+<tr><td>Mail Id</td><td><input type="text" name="emailid"/></td></tr>
+<td><input type="submit" name="Add Employee"/></td>
+</table>
+</form>
+</body>
+</html>

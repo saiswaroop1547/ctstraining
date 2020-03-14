@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href='DisplayServlet'>DisplayEmployees</a><br>
+<a href='addEmp.html'>InsertEmployees</a><br>
+<a href='searchEmp.html'>SearchEmployees</a><br>
+<a href=''>UpdateEmployees</a><br>
+<a href=''>InsertEmployees</a>
+</body>
+</html>

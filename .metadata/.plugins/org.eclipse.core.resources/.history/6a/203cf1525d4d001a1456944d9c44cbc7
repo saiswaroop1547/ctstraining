@@ -1,0 +1,9 @@
+import java.util.HashMap;
+
+public class Jobdetails {
+HashMap<Integer,String> h1=new HashMap<Integer,String>();
+HashMap<Integer,String> h2=new HashMap<Integer,String>();
+HashMap<Integer,String> h3=new HashMap<Integer,String>();
+h1.put(101,"Accounts");
+h1.put(101,"Accounts");
+}

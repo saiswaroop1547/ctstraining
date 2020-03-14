@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Training1">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="tomcat-i18n-fr.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-fr.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-ru.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ru.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ha.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ha.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ssi.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ssi.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Training1"/>
+        <property name="java-output-path" value="/Training1/build/classes"/>
+    </wb-module>
+</project-modules>

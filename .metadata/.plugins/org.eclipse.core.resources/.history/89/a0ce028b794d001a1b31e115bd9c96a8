@@ -1,0 +1,14 @@
+import java.util.TreeMap;
+
+public class Newtreemap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeMap tm=new TreeMap();
+		tm.put(101, 555);
+		tm.put(102, 655);
+		tm.put(103, 755);
+		tm.put(104, 855);
+	}
+
+}

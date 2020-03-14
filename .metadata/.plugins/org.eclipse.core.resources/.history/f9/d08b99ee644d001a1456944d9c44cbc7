@@ -1,0 +1,11 @@
+import java.util.HashMap;
+
+public class UserMainCode {
+public static Map increaseSalaries(HashMap<Integer,String> h1,HashMap<Integer,Integer> h2)
+{
+
+	HashMap<Integer,Integer> h2=new HashMap<Integer,Integer>();
+
+}
+
+}

@@ -1,0 +1,38 @@
+package springexamples;
+
+import org.springframework.validation.annotation.Validated;
+
+public class HelloWorld 
+{
+	public String message;
+	
+	public HelloWorld(String s) 
+	{
+		System.out.println("hello world");
+	}
+	public HelloWorld(int n)
+	{
+		System.out.println("hi this is int with one parameter"+n);
+	}
+	public HelloWorld(int n,String s)
+	{
+		System.out.println("two parameters");
+	}
+
+public void getMessage() {
+	System.out.println("your message:"+message);
+	//return message;
+}
+
+public void init()
+{
+	System.out.println("hello in it");
+}
+public void setMessage(String message) {
+	this.message = message;
+}
+	public void display()
+	{
+		System.out.println("message is :"+message);
+	}
+}

@@ -1,0 +1,24 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<c:set var="String" value="JSTL Programming"/>
+<c:if test="${fn:contains(String,'programming')}">
+<p>Found programming string</p>
+</c:if>
+<b> After contains tag</b>
+<c:if test="${fn:contains(String,'programming')}">
+<p>Found programming string</p>
+</c:if>
+<c:if test="${fn:contains(String,'programming')}">
+<p>Found programming string</p>
+</c:if>
+<c:if test="${fn:endsWith(String,'programming')}">
+<p>Found programming string</p>
+</c:if>
+</body>
+</html>

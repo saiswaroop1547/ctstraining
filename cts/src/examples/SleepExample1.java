@@ -1,0 +1,14 @@
+package examples;
+
+public class Examples extends Thread{
+	
+}
+public class SleepExample1 {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

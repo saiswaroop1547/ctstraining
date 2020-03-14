@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<h3 align="center">TransactionsMenu</h3>
+<a href='index.html'>1.Login and Validation</a>
+<a href='Deposit.jsp'>2.Deposit</a>
+<a href='Withdraw.jsp'>3.Withdraw</a>
+<a href='GetBalance.jsp'>4.GetBalance</a>
+</form>
+</body>
+</html>

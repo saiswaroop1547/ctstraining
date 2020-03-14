@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="address1" class="Settersexamples.Address">
+   <property name="Dno" value="176"/>
+   <property name="Street" value="Beach"/>
+   <property name="City" value="Vizag"/>
+   </bean>
+      <bean id="setterpersons" class="Settersexamples.Person" autowire="byType">
+   <property name="age" value="21"/>
+   <property name="name" value="Swaroop"/>
+  <!-- <property name="address" ref="Address1"/>-->
+   </bean>
+   </beans>

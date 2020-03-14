@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class UserMainCode {
+public static Map increaseSalaries(int n,HashMap<Integer,String> h1,HashMap<Integer,Integer> h2)
+{
+Set keys=h1.keySet();
+Iterator iter=keys.iterator();
+while(iter.hasNext())
+ int id = (int)iter.next();
+String s=h1.get(id);
+
+	
+}
+
+}
+

@@ -1,0 +1,49 @@
+<%@page import="java.util.*"%>
+<%@page import="java.sql.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="http://localhost:8081/jspupdate/update.jsp">
+<% 
+		String empid=request.getParameter("id");
+	 	Class.forName("com.mysql.jdbc.Driver");
+		Connection con=DriverManager.getConnection
+		("jdbc:mysql://localhost:3306/cts","root","root");
+		PreparedStatement pst=con.prepareStatement("select * from employee where empid=?");
+		pst.setString(1, empid);
+		ResultSet rs=pst.executeQuery();
+		if(rs.next())
+			%>
+	{
+	Employee name is:<input type='text' name='ename' value='<%rs.getString(1);%>'>
+	out.print("<br>Employee id is:");
+	out.print("<input type='text' name='empid' value='"+rs.getString(2)+"'>");
+	out.println("<br>Employee department is:");
+	out.print("<input type='text' name='department' value='"+rs.getString(3)+"'>");
+	out.println("<br>Employee designation is:");
+	out.print("<input type='text' name='designation' value='"+rs.getString(4)+"'>");
+	out.println("<br>Employee company is:");
+	out.print("<input type='text' name='company' value='"+rs.getString(5)+"'>");
+	out.println("<br>Employee emailid is:");
+	out.print("<input type='text' name='emailid' value='"+rs.getString(6)+"'>");
+	out.println("<br><input type='submit' value='update'>");
+	out.print("</form>");
+	out.print("</body></html>");
+	}
+else
+{
+  System.out.println("Invalid id");
+}
+rs.close();
+pst.close();
+con.close();
+%>
+</form>
+</body>
+</html>

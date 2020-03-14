@@ -1,0 +1,21 @@
+import java.util.HashMap;
+
+
+public class Jobdetails {
+public static void main(String args[])
+{
+	HashMap<Integer,String> h1=new HashMap<Integer,String>();
+HashMap<Integer,Double> h2=new HashMap<Integer,Double>();
+HashMap<Integer,Double> h3=new HashMap<Integer,Double>();
+h1.put(101,"accounts");
+h1.put(101,"manager");
+h1.put(101,"clerk");
+h1.put(101,"accounts");
+h1.put(101,"manager");
+h2.put(101,40000.00);
+h2.put(102,50000.00);
+h2.put(103,30000.00);
+h2.put(104,60000.00);
+h2.put(105,40000.00);
+}
+}

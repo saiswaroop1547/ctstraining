@@ -1,0 +1,17 @@
+package something;
+
+public class UserMainCode {
+	public static String checkUnique(String str)
+	{
+		for(int i=0;i<str.length();i++)
+		{
+			
+		}
+		
+		
+		
+		
+		return null;	
+	}
+
+}

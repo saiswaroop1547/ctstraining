@@ -1,0 +1,23 @@
+package springexamples;
+
+public class HelloWorld 
+{
+	private String message;
+
+public void getMessage() {
+	System.out.println("your message:"+message);
+	//return message;
+}
+
+public void init()
+{
+	System.out.println("hello in it");
+}
+public void setMessage(String message) {
+	this.message = message;
+}
+	public void display()
+	{
+		System.out.println("message is :"+message);
+	}
+}

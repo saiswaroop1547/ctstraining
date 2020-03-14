@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+<form action="http://localhost:8081/Storage/jspconnection.jsp">
+Enter ur name:<input type="text" name="name"><br>
+Department:<input type="text" name="dept"><br>
+Designation:<input type="text" name="desg"><br>
+<input type="submit" name="register">
+</form>
+</body>
+</html>

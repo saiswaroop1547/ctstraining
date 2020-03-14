@@ -1,0 +1,21 @@
+package springexamples;
+
+import org.springframework.context.ApplicationContext;
+//import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class TestSpring 
+{
+	public static void main(String args[])
+	{
+		//ApplicationContext context=new ClassPathXmlApplicationContext("bean.xml");
+		ApplicationContext factory=new FileSystemXmlApplicationContext
+				("D:\\ctstraining\\springexamples\\bin\\bean.xml");
+		HelloWorld obj=(HelloWorld) factory.getBean("helloworld");
+		Employee e=(Employee)factory.getBean("emp");
+		obj.getMessage();
+		obj.display();
+		e.display();
+	}
+	
+}

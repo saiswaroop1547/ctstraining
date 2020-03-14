@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\ctstraining\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+992579964.index

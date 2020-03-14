@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+User Id:<input type="text" name="userid"/><br>
+Password:<input type="password" name="pswd"/><br>
+<input type="submit" name="submit"/>
+</body>
+</html>

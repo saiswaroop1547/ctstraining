@@ -1,0 +1,39 @@
+import java.util.*;
+
+class UserMain
+{
+	public static int SumOfLowestMarks(HashMap<Integer,Integer>h1)
+	{
+	ArrayList<Integer> ar=new ArrayList<Integer>();
+	int sum=0;
+	Set keys=h1.keySet();
+	Iterator iter=keys.iterator();
+	while(iter.hasNext()) 
+	
+		{
+		int mks=(int) iter.next();
+		ar.add(h1.get(mks));
+			
+		}
+	Collections.sort(ar);
+	sum=ar.get(0)+ar.get(1)+ar.get(2);
+	}
+}
+class HashMap1
+{
+	public static void main(String args[])
+	{
+		HashMap<Integer, Integer>h1=new HashMap<>();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter no of elements to be entered");
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+			System.out.println("enter element");
+			h1.put(sc.nextInt(), sc.nextInt());
+		}
+			h1=(HashMap<Integer,Integer>)UserMain.SumOfLowestMarks(h1);
+		
+	}
+	
+}
